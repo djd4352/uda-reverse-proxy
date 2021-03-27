@@ -16,7 +16,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: surabhya/udagram-reverse-proxy
+      - image: djd4352/uda-reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -29,4 +29,3 @@ spec:
         ports:
         - containerPort: 8080
       restartPolicy: Always
-
